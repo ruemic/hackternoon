@@ -12,7 +12,6 @@ gem 'devise',     '~> 2.0.4'
 gem 'kaminari',   '=0.13.0'
 
 group :test, :development do
-  gem 'ruby-debug19', '~> 0.11.6',:require => 'ruby-debug'
   # Pretty printed test output
   gem 'turn', '0.9.3', :require => false
   gem 'minitest',    '~>2.11.2'
@@ -34,4 +33,5 @@ group :assets do
   gem 'coffee-rails',   '~> 3.2.1'
   gem 'uglifier',       '>= 1.0.3'
   gem 'zurb-foundation','~> 2.1.5.1'
+  gem 'bourbon',		'~> 1.4.0'
 end
